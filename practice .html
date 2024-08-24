@@ -31,56 +31,31 @@
 </head>
 
 <body>
-    <section class="bg-[#F4F4F4]">
-        <div class="container mx-auto w-full h-auto pt-[100px] px-4">
-            <div class="flex flex-col items-center justify-center text-center">
-                <button class="btn bg-[#FFFFFF] w-[166px] h-[38px] mb-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                    </svg>
-                    How we work
-                </button>
-                <h1 class="text-[2.5rem] font-bold pt-4">Our Works Process</h1>
-                <p class="pt-6">The barn house captivates with its blend of rustic charm and modern sophistication,<br
-                        class="hidden md:block">featuring weathered wood, sleek metal accents.</p>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-8 pb-[100px] w-full h-auto">
-                    <div class="bg-base-100 text-left bg-[#E7C1D3] p-6 rounded-2xl">
-                        <img src="./assets/concept.png" alt="concept" class="rounded-xl mb-4 max-w-12 max-h-12" />
-                        <div class="text-left">
-                            <h2 class="card-title py-[10px]">Concept</h2>
-                            <p class="leading-[26px]">The barn house captivates with its blend of rustic charm and
-                                modern.</p>
-                        </div>
-                    </div>
-                    <div class="bg-base-100 bg-[#EFDA6E] p-6 rounded-2xl">
-                        <img src="./assets/flow-chart.png" alt="Design Process" class="rounded-xl mb-4 w-full h-auto" />
-                        <div class="text-left">
-                            <h2 class="card-title py-[10px]">Design Process</h2>
-                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                        </div>
-                    </div>
-                    <div class="bg-base-100 text-left bg-[#A4DAC3] p-6 rounded-2xl">
-                        <img src="./assets/vision.png" alt="Supervision" class="rounded-xl mb-4 w-full h-auto" />
-                        <div class="text-left">
-                            <h2 class="card-title py-[10px]">Supervision</h2>
-                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                        </div>
-                    </div>
-                    <div class="bg-base-100 text-left bg-[#77AAEA] p-6 rounded-2xl">
-                        <img src="./assets/budget-planning.png" alt="Budget Planning"
-                            class="rounded-xl mb-4 w-full h-auto" />
-                        <div class="text-left">
-                            <h2 class="card-title py-[10px]">Budget Planning</h2>
-                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                        </div>
-                    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
+        <div class="card card-side bg-base-100 shadow-xl">
+            <figure>
+                <img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp" alt="Movie" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">New movie is released!</h2>
+                <p>Click the button to watch on Jetflix app.</p>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Watch</button>
                 </div>
             </div>
         </div>
-    </section>
-
+        <div class="card bg-base-100 w-96 shadow-xl">
+            <div class="card-body">
+                <h2 class="card-title">Card title!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
