@@ -136,50 +136,64 @@
     </header>
 
     <main>
-        <section class="bg-[#F4F4F4] w-full h-auto ">
-            <div class="container mx-auto w-[100%] max-h-[561px]">
-                <div class="flex flex-col md:flex-row items-center  p-5 container">
-                    <!-- Left Side: Text Content -->
-                    <div class="md:w-1/2 p-8 relative">
+        <section class="bg-[#F4F4F4]">
+            <div class="container mx-auto w-full h-auto">
+                <div class="flex  md:flex-row xl:flex-row items-center gap-6 mx-auto w-full h-auto ">
+                    <!-- Left Side: Content -->
+                    <div class="w-full md:w-1/2 relative my-8">
                         <img src="./assets/Vector.png" alt="Decorative Vector" class="absolute top-0 left-0">
-                        <button class="btn btn-outline mb-4">
-                            ➜ About Us
+                        <button class="btn bg-[#FFFFFF] rounded-3xl px-4 py-2 flex items-center justify-center mt-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 mr-2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                            About Us
                         </button>
-                        <h1 class="text-5xl font-bold mb-4">We design thoughtful, liveable spaces</h1>
-                        <p class="text-lg text-gray-600 mb-8">
+                        <h1 class="text-[40px] xl:leading-[55px] md:text-5xl font-bold mt-4">We design thoughtful,
+                            livable
+                            spaces</h1>
+                        <p class="font-medium leading-[26px] text-[#494949] py-6">
                             The barn house captivates with its blend of rustic charm and modern sophistication,
                             featuring weathered wood, sleek metal accents.
                         </p>
                         <!-- Cards -->
-                        <div class="space-y-4">
-                            <div class="card bg-base-100 shadow-lg p-4 flex items-center space-x-4">
-                                <div class="text-4xl">
-                                    <img src="./assets/commercial.png" alt="">
+                        <div class="space-y-6">
+                            <div class="p-6 flex items-center gap-6 bg-[#ffffff] rounded-2xl">
+                                <div>
+                                    <img src=" ./assets/commercial.png" alt="">
                                 </div>
                                 <div>
-                                    <h2 class="text-xl font-semibold">Commercial</h2>
-                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                    <h2 class="text-xl font-extrabold pb-[10px] text-[#494949]">Commercial</h2>
+                                    <p class="font-medium leading-[26px] text-[#737373]">The barn house captivates with
+                                        its
+                                        blend of rustic charm and modern.</p>
                                 </div>
                             </div>
-                            <div
-                                class="card bg-base-100 shadow-lg p-4 flex items-center space-x-4 border-l-4 border-pink-500">
-                                <div class="text-4xl">
+                            <div class="p-6 flex items-center gap-6 bg-[#ffffff] rounded-2xl">
+                                <div>
                                     <img src="./assets/residential.png" alt="">
                                 </div>
                                 <div>
-                                    <h2 class="text-xl font-semibold">Residential</h2>
-                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                    <h2 class="text-xl font-extrabold pb-[10px] text-[#494949]">Residential</h2>
+                                    <p class="font-medium leading-[26px] text-[#737373]">The barn house captivates with
+                                        its
+                                        blend of
+                                        rustic
+                                        charm and
+                                        modern.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- Right Side: Image -->
-                    <div class="md:w-1/2 p-8">
-                        <img src="./assets/Rectangle.png" alt="Modern House" class="rounded-lg shadow-lg">
+                    <div class="w-full md:w-1/2 p-8">
+                        <img src="./assets/Rectangle.png" alt="Modern House" class="rounded-lg w-full h-auto">
                     </div>
                 </div>
             </div>
         </section>
+
 
         <!-- Our Works Process -->
         <section class="bg-[#F4F4F4]">
@@ -238,10 +252,10 @@
         </section>
 
         <!-- Our Latest Portfolio section -->
-        <section>
-            <div class="container mx-auto w-full h-auto pt-[100px] px-4">
+        <section class="bg-[#FFFFFF]">
+            <div class="container mx-auto w-full h-auto py-[100px] px-4">
                 <div class=" flex flex-col items-center justify-center text-center">
-                    <button class="btn bg-[#ABEF5F33] w-[246px] h-[38px] px-4 py-2">
+                    <button class="btn bg-[#ABEF5F33] w-[246px] h-[38px] px-4 py-2 rounded-full font-bold">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -254,23 +268,74 @@
                         sophistication,<br class="hidden md:block">featuring weathered wood, sleek metal accents.</p>
                 </div>
                 <!-- letets portfolio grid section -->
-                <div class=" grid grid-cols-1 md:grid-cols-2">
-                    <div class=" grid grid-cols-1 md: grid-cols-2">
-                        <div>
-                            <img src="./assets/img1.png" alt="">
+                <!-- First Section -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                    <!-- Left Image and Text -->
+                    <div
+                        class="col-span-2 border border-[#E9E9E9] p-6 rounded-2xl flex flex-col md:flex-row items-center">
+                        <img src="./assets/img1.png" alt="Image 1"
+                            class="w-full h-[179.3px] rounded-2xl mb-4 md:mb-0 md:mr-4 object-cover">
+                        <div class="text-left">
+                            <div class="text-left">
+                                <h1 class="text-[#494949] text-[24px] font-extrabold">Commercial</h1>
+                                <p class="text-[#737373] font-medium leading-[24px] pt-4 pb-5">The barn house captivates
+                                    with its blend of rustic charm and modern. The barn house captivates with its blend
+                                    of rustic charm and modern .</p>
+                                <button
+                                    class="flex items-center gap-[10px] bg-[#ffffff] border-[#ffffff] rounded-full ">
+                                    <span class="text-[#212121] text-[20px] font-extrabold">View Details</span>
+                                    <div class="flex items-center justify-center w-8 h-8 bg-[#ABEF5F] rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M7 17L17 7M7 7h10v10" />
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
                         </div>
-                        <div>
-                            <h3 class=" text-[2.5rem] font-bold pt-4">Commercial</h3>
-                            <p class="pt-6 ">The barn house captivates with its blend of rustic charm and modern
-                                sophistication,<br class="hidden md:block">featuring weathered wood, sleek metal
-                                accents.
-                            </p>
-                            <button class="btn">View Details</button>
-                        </div>
-
                     </div>
-                    <div>
-                        <img src="./assets/img2.png" alt="">
+
+                    <!-- Right Image -->
+                    <div class="border border-[#E9E9E9] p-6 rounded-2xl flex justify-center items-center">
+                        <img src="./assets/img2.png" alt="Image 2" class="w-full h-[179.3px] rounded-2xl object-cover">
+                    </div>
+                </div>
+
+                <!-- Second Section -->
+                <div class="grid grid-cols-1 md:grid-cols-[24%,48%,24%] gap-6 mt-6">
+                    <!-- Left Image -->
+                    <div class="border border-[#E9E9E9] p-6 rounded-2xl flex justify-center items-center">
+                        <img src="./assets/article3.png" alt="Image 3"
+                            class="w-full h-[179.3px] rounded-2xl object-cover">
+                    </div>
+
+                    <!-- Center Image and Text -->
+                    <div class="border border-[#E9E9E9] p-6 rounded-2xl flex flex-col md:flex-row items-center">
+                        <img src="./assets/img4.png" alt="Image 4"
+                            class="w-full md:w-1/2 h-[179.3px] rounded-2xl mb-4 md:mb-0 md:mr-4 object-cover">
+                        <div class="text-left">
+                            <h1 class="text-[#494949] text-[24px] font-extrabold">Commercial</h1>
+                            <p class="text-[#737373] font-medium leading-[24px] pt-4 pb-5">The barn house
+                                captivates
+                                with its
+                                blend of rustic
+                                charm and <br class="hidden md:block"> modern. </p>
+                            <button class="flex items-center gap-[10px] bg-[#ffffff] border-[#ffffff] rounded-full ">
+                                <span class="text-[#212121] text-[20px] font-extrabold">View Details</span>
+                                <div class="flex items-center justify-center w-8 h-8 bg-[#ABEF5F] rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M7 7h10v10" />
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Right Image -->
+                    <div class="border border-[#E9E9E9] p-6 rounded-2xl flex justify-center items-center">
+                        <img src="./assets/img5.png" alt="Image 5" class="w-full h-[179.3px] rounded-2xl object-cover">
                     </div>
                 </div>
             </div>
@@ -278,10 +343,10 @@
 
         <!-- Let’s Discuss Next Project section -->
         <section
-            class="w-full h-auto bg-[url('./assets/bg.jpg')] opacity-50 bg-cover bg-center bg-no-repeat py-16 px-4">
+            class="w-full h-auto bg-[url('./assets/bg.jpg')] opacity-90 bg-cover bg-center bg-no-repeat py-16 px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-8">
-                    <button class="btn btn-sm bg-[#D1FAE5] text-black border-none">
+                    <button class="btn btn-sm bg-[#ABEF5F33] text-black border-none">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-4 h-4 inline-block mr-2">
                             <path stroke-linecap="round" stroke-linejoin="round"
